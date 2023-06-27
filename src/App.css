@@ -1,38 +1,88 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;padding: 0;box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  background-color:cadetblue;
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+/* input styling */
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.input{
+  margin: 40px auto;
+  width: 80%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: cadetblue;
+  box-shadow: 10px 5px 20px aliceblue ,-10px -5px 10px aliceblue;
+  border-radius: 15px;
 }
 
-.App-link {
-  color: #61dafb;
+.input>div{
+  width: 80%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input{
+  width: 80%;
+  height: 35px;
+  margin: 10px;
+  font-size: 17px;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+button{
+  width: 100px;
+  height: 40px;
+  background-color: aliceblue;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  font-size: 18px;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: black;
+  color: aliceblue;
+}
+
+
+/* table styling */
+
+h1{
+  text-align: center;
+  text-decoration: underline;
+  text-shadow: 2px 3px 5px aliceblue;
+}
+
+table{
+  
+  margin: 20px auto;
+  width: 80%;
+  border-radius: 15px;
+}
+
+thead,th{
+  background-color: aquamarine;
+  border: 1px solid;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+tbody, td{
+  background-color: cornflowerblue;
+  border: 1px solid;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+tbody,tr{
+  margin-top: 20px;
 }
